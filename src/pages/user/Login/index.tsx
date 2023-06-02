@@ -83,7 +83,7 @@ const Login: React.FC = () => {
               submitText: 'Log In'
             }
           }}
-          logo={<img alt="logo" src={SYSTEM_LOGO} />
+          logo={<img alt="logo" src="/logo.png" />
         }
           title="Watson Coding Planet"
           subTitle={<a href={PLANET_LINK} target="_blank" rel="noreferrer">SPACE IS THE LIMIT REACH FOR THE GALAXY</a>}

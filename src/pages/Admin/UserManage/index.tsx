@@ -133,7 +133,7 @@ export default () => {
           labelWidth: 'auto',
         }}
         form={{
-          // 由于配置了 transform，提交的参与与定义的不同这里需要转化一下
+          // Due to the configuration of transform, the submitted participation is different from the defined one and needs to be transformed here
           syncToUrl: (values, type) => {
             if (type === 'get') {
               return {
