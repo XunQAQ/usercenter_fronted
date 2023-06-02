@@ -9,7 +9,7 @@ import {Alert, Divider, message, Space, Tabs} from 'antd';
 import React, {useState} from 'react';
 import {ProFormCheckbox, ProFormText, LoginForm} from '@ant-design/pro-form';
 import {history, useModel} from 'umi';
-import {PLANET_LINK, SYSTEM_LOGO} from '@/constants';
+import {PLANET_LINK} from '@/constants';
 import Footer from '@/components/Footer';
 import {login} from '@/services/ant-design-pro/api';
 import styles from './index.less';
