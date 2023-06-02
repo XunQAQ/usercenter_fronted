@@ -22,7 +22,7 @@ const Register: React.FC = () => {
     }
 
     try {
-      // Register
+      // Registe
       const id = await register(values);
       if (id) {
         const defaultLoginSuccessMessage = 'Registration success!';
